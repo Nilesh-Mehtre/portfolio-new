@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nilesh Mehtre | Work</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="icon" type="image/x-icon" href="./download.png" />
+    <script
+      src="https://kit.fontawesome.com/aa0cd4b13a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      const clickHandler = () => {
+        console.log("clicked");
+        if (document.getElementById("menu-items").style.display === "none") {
+          document.getElementById("menu-items").style.display = "block";
+        } else {
+          document.getElementById("menu-items").style.display = "none";
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <div class="logo-head">
+            <a id="logo" href="index.html">Portfolio Website</a>
+            <img
+              src="./img/Hamburger_icon.svg.png"
+              alt=""
+              onclick="clickHandler()"
+              id="ham-icon"
+            />
+          </div>
+          <ul id="menu-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html" class="current">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="work-a" class="py-3">
+      <div class="container">
+        <h2 class="section-title">My work</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Check some of my projects</p>
+        <div class="work-projects">
+          <ul>
+            <li>
+              <div>
+                <span>1. paytm clone</span>
+                <a
+                  href="https://paytm-app-clone.netlify.app/"
+                  class="btn-light"
+                  target="_blank"
+                  >Website link</a
+                >
+                <a
+                  href="https://github.com/Nilesh-Mehtre/Paytm-clone"
+                  class="btn-light"
+                  target="_blank"
+                  >Github repo</a
+                >
+              </div>
+            </li>
+            <li>
+              <div>
+                <span>2. Portfolio Website</span>
+                <a
+                  href="https://nilesh-mehtre.netlify.app/"
+                  class="btn-light"
+                  target="_blank"
+                  >Website link</a
+                >
+                <a
+                  href="https://github.com/Nilesh-Mehtre/Portfolio"
+                  class="btn-light"
+                  target="_blank"
+                  >Github repo</a
+                >
+              </div>
+            </li>
+            <li>
+              <div>
+                <span>3. Edutech</span>
+                <a
+                  href="https://edutechapp2022.netlify.app/"
+                  class="btn-light"
+                  target="_blank"
+                  >Website link</a
+                >
+                <a
+                  href="https://github.com/Nilesh-Mehtre/edutech"
+                  class="btn-light"
+                  target="_blank"
+                  >Github repo</a
+                >
+              </div>
+            </li>
+            <li>
+              <div>
+                <span>4. Dental Website</span>
+                <a
+                  href="https://dental-website-project.netlify.app/"
+                  class="btn-light"
+                  target="_blank"
+                  >Website link</a
+                >
+                <a
+                  href="https://github.com/Nilesh-Mehtre/DentalWebiste"
+                  class="btn-light"
+                  target="_blank"
+                  >Github repo</a
+                >
+              </div>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2022. All rights reserved</p>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/nilesh-mehtre-b72284236/">
+            <i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Nilesh-Mehtre"
+            ><i class="fab fa-github"></i
+          ></a>
+
+          <a href="mailto:nileshmehtre1314@gmail.com"
+            ><i class="fab fa-google"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/typewriter.js"></script>
+  </body>
+</html>
